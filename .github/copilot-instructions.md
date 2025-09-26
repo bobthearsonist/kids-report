@@ -17,6 +17,16 @@ This is an iOS native app for iPad designed for kids to go on "reporting" missio
 - Keep technical jargon to minimum unless specifically needed
 - Run console commands separately since they auto-approve - don't chain multiple commands with &&
 
+### Educational Swift Learning Guidelines:
+
+- This is a learning project - explain Swift concepts as we implement them
+- Keep explanations brief but clear for dictation workflow
+- Focus on WHY we're using specific Swift patterns, not just HOW
+- Explain iOS frameworks when we introduce them (AVFoundation, PencilKit, etc.)
+- Wait for follow-up questions rather than over-explaining upfront
+- Use practical examples from our actual code
+- Mention best practices naturally as we encounter them
+
 ### App Structure:
 
 1. **Reporting Phase**: Notebook sketching, camera recording with collapse/expand functionality, automatic interview transcription

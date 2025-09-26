@@ -11,9 +11,11 @@
 		2590351D4188B95443678D70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FA557C98028065F2317F1A1 /* Assets.xcassets */; };
 		3AD99EEB41E6D855A5DDBEA3 /* KidsReporterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B377C315C5A8255F120DAE /* KidsReporterApp.swift */; };
 		46FBD77FEAB2FBF135AE480B /* ProductionPhaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08192E47354B24EFD7832242 /* ProductionPhaseView.swift */; };
+		69ACB0A3A379B0E74E4FBE6E /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA14CE252D27CFA7BB3D83B /* CameraManager.swift */; };
 		840D5813774C108A94B76FA1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB1BC8E420352DE43860A06C /* Preview Assets.xcassets */; };
 		84D2772688BC7BA61AF8C211 /* NotebookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7923EA1D39989DC260202C21 /* NotebookView.swift */; };
 		85964115F92BB2D15914B580 /* DistributionPhaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC267F847E8B234446E86D6E /* DistributionPhaseView.swift */; };
+		A89D5C0D32A0E771D9DA9B44 /* SpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BC7264BE49E4940A0F9913 /* SpeechManager.swift */; };
 		BEB15FF7DC5198AEA44DE460 /* DrawingCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191442024B9954B0EAA72E6F /* DrawingCanvasView.swift */; };
 		CFAE373EAD099ADAC00CE753 /* ReportingPhaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B80DCBE043266A04A45034C /* ReportingPhaseView.swift */; };
 		DA45A8A7605750C26B04CC7E /* CameraPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EAAFBFF811D5F2BE7431FF /* CameraPanel.swift */; };
@@ -24,6 +26,7 @@
 /* Begin PBXFileReference section */
 		08192E47354B24EFD7832242 /* ProductionPhaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductionPhaseView.swift; sourceTree = "<group>"; };
 		191442024B9954B0EAA72E6F /* DrawingCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingCanvasView.swift; sourceTree = "<group>"; };
+		1EA14CE252D27CFA7BB3D83B /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
 		3DE90F6525EF6F7D006D995C /* KidsReporter.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = KidsReporter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B80DCBE043266A04A45034C /* ReportingPhaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportingPhaseView.swift; sourceTree = "<group>"; };
 		6BE57FCD903C19E210A89366 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -31,6 +34,7 @@
 		7923EA1D39989DC260202C21 /* NotebookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebookView.swift; sourceTree = "<group>"; };
 		836B2235F634BD8A6229571C /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
 		92B377C315C5A8255F120DAE /* KidsReporterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsReporterApp.swift; sourceTree = "<group>"; };
+		96BC7264BE49E4940A0F9913 /* SpeechManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechManager.swift; sourceTree = "<group>"; };
 		9ADEACB49824AFA18F64B990 /* TranscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptionView.swift; sourceTree = "<group>"; };
 		E6EAAFBFF811D5F2BE7431FF /* CameraPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPanel.swift; sourceTree = "<group>"; };
 		EB1BC8E420352DE43860A06C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -59,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				6FA557C98028065F2317F1A1 /* Assets.xcassets */,
+				1EA14CE252D27CFA7BB3D83B /* CameraManager.swift */,
 				E6EAAFBFF811D5F2BE7431FF /* CameraPanel.swift */,
 				836B2235F634BD8A6229571C /* CameraPreviewView.swift */,
 				6BE57FCD903C19E210A89366 /* ContentView.swift */,
@@ -69,6 +74,7 @@
 				7923EA1D39989DC260202C21 /* NotebookView.swift */,
 				08192E47354B24EFD7832242 /* ProductionPhaseView.swift */,
 				4B80DCBE043266A04A45034C /* ReportingPhaseView.swift */,
+				96BC7264BE49E4940A0F9913 /* SpeechManager.swift */,
 				9ADEACB49824AFA18F64B990 /* TranscriptionView.swift */,
 				CCA08A72973BE2AFBE24C341 /* Preview Content */,
 			);
@@ -149,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69ACB0A3A379B0E74E4FBE6E /* CameraManager.swift in Sources */,
 				DA45A8A7605750C26B04CC7E /* CameraPanel.swift in Sources */,
 				DF3CAAD8AA84F551A2A4F314 /* CameraPreviewView.swift in Sources */,
 				20F76E8033BDFB0F433D6187 /* ContentView.swift in Sources */,
@@ -158,6 +165,7 @@
 				84D2772688BC7BA61AF8C211 /* NotebookView.swift in Sources */,
 				46FBD77FEAB2FBF135AE480B /* ProductionPhaseView.swift in Sources */,
 				CFAE373EAD099ADAC00CE753 /* ReportingPhaseView.swift in Sources */,
+				A89D5C0D32A0E771D9DA9B44 /* SpeechManager.swift in Sources */,
 				FF240B850530E4B195CB957C /* TranscriptionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
